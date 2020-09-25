@@ -39,7 +39,7 @@ public class MobileTest {
         System.out.println(brands1.size());
 
     }
-    @Test
+   // @Test
     public void test4(){
         Brand[] brands = new LoadUtils().getMobiles();
         Field[] fields = brands[0].getClass().getDeclaredFields();
