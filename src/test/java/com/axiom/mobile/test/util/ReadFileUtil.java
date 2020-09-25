@@ -13,7 +13,7 @@ public class ReadFileUtil {
         }
         catch (Exception e) {
             Path path = Paths.get("", "test");
-            String filePath = path.getFileName().toAbsolutePath() + "/resources/mobiles.json";
+            String filePath = path.getFileName().toAbsolutePath() + "test/java/resources/mobiles.json";
             System.out.println(filePath);
         }
         return null;
