@@ -11,8 +11,8 @@ RUN mkdir -p /build_app
 WORKDIR /build_app/
 
 # Copy the pom.xml and the application source code to the build_app directory
-COPY ../pom.xml /build_app
-COPY ../src /build_app/src
+COPY pom.xml /build_app
+COPY src /build_app/src
 
 # Build the application on the java_mongo_app_builder docker container
 RUN mvn clean package
