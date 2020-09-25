@@ -7,8 +7,8 @@ import java.nio.file.Paths;
 public class ReadFileUtil {
     public static String readFromFile() {
         try {
-            Path path = Paths.get("", "test");
-            String filePath = path.getFileName().toAbsolutePath() + "/resources/mobiles.json";
+            Path path = Paths.get("", "src");
+            String filePath = path.getFileName().toAbsolutePath() + "test/java/resources/mobiles.json";
             return readFile(filePath);
         }
         catch (Exception e) {
