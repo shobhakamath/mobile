@@ -10,7 +10,7 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 public class MobileTest {
-    @Test
+    //@Test
     public void test1(){
         Brand[] brands =  new LoadUtils().getMobiles();
         List<Brand> brands1= Arrays.stream(brands)
@@ -20,7 +20,7 @@ public class MobileTest {
 
     }
 
-    @Test
+    //@Test
     public void test2(){
         Brand[] brands =  new LoadUtils().getMobiles();
         List<Brand> brands1= Arrays.stream(brands)
@@ -30,7 +30,7 @@ public class MobileTest {
 
     }
 
-    @Test
+    //@Test
     public void test3(){
         Brand[] brands =  new LoadUtils().getMobiles();
         List<Brand> brands1= Arrays.stream(brands)
