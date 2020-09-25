@@ -8,7 +8,7 @@ public class ReadFileUtil {
     public static String readFromFile() {
         try {
             Path path = Paths.get("", "");
-            String filePath = path.getFileName().toAbsolutePath() + "\\src\\test\\java\\resources\\mobiles.json";
+            String filePath = path.getFileName().toAbsolutePath() + "/resources/mobiles.json";
             return readFile(filePath);
         }
         catch (Exception e) {
