@@ -7,12 +7,14 @@ import java.nio.file.Paths;
 public class ReadFileUtil {
     public static String readFromFile() {
         try {
-            Path path = Paths.get("", "");
+            Path path = Paths.get("", "test");
             String filePath = path.getFileName().toAbsolutePath() + "/resources/mobiles.json";
             return readFile(filePath);
         }
         catch (Exception e) {
-            e.printStackTrace();
+            Path path = Paths.get("", "test");
+            String filePath = path.getFileName().toAbsolutePath() + "/resources/mobiles.json";
+            System.out.println(filePath);
         }
         return null;
     }
