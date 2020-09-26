@@ -1,0 +1,24 @@
+{
+	"info": {
+		"_postman_id": "a493a9ce-076f-4aeb-b1de-1bb3418dd5d1",
+		"name": "Axiom",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Mobile search",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": []
+		}
+	]
+}
