@@ -35,7 +35,7 @@ public class MobileService {
         RequestParamsValidation.validateRequestParams(reqParams, Brand.class);
         Brand[] brands = callMobileService(requestParameters);
         List<Brand> brands1 = MobileUtils.filterCriteria(brands, requestParameters);
-        return brands1.toArray(new Brand[]);
+        return brands1.toArray(new Brand[brands1.size()]);
     }
 
     @HystrixCommand(fallbackMethod = "fallBackMethod")
