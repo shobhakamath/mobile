@@ -1,6 +1,6 @@
 # mobile
 
-https://labs.play-with-docker.com/
+In the cloud environment do the following steps:
 
 # clone the repo 
 git clone https://github.com/shobhakamath/mobile.git
