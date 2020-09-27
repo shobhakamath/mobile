@@ -18,7 +18,7 @@ public class LoadUtils {
     public static String readFromFile() {
         try {
             Path currentDir = Paths.get("src","test");
-            String filePath = currentDir.toAbsolutePath() + "\\java\\resources\\mobiles.json";
+            String filePath = currentDir.toAbsolutePath() + "/java/resources/mobiles.json";
             return readFile(filePath);
         }
         catch (Exception e) {
