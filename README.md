@@ -1,10 +1,18 @@
-# mobile
+The mobile service can be tested using  the following url:
 
+https://mobilebrands.herokuapp.com/mobile/search?sim=esim returns valid response
+https://mobilebrands.herokuapp.com/mobile/search?sim=esim&announceDate=2019 return empty values
+
+Validation response :
+https://mobilebrands.herokuapp.com/mobile/search?sim1=esim
+{"errors":["sim1"],"message":"The request parameters are invalid"}
+
+#Local testing
 The application can be run locally by the following steps:
 mvn clean install
-
 mvn springboot:run
 
+#Cloud testing
 In the cloud environment do the following steps:
 
 # clone the repo 
