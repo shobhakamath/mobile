@@ -1,5 +1,10 @@
 # mobile
 
+The application can be run locally by the following steps:
+mvn clean install
+
+mvn springboot:run
+
 In the cloud environment do the following steps:
 
 # clone the repo 

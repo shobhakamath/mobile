@@ -35,4 +35,13 @@ public class MobileUtilsTest {
         List<Brand>  result = MobileUtils.filterCriteria(brands, requestParams);
         Assert.assertTrue(result.size()==4);
     }
+@Test
+    public void testRequestParamsNullValues() {
+        Brand[] brands = new LoadUtils().getMobiles();
+        Map<String, String> requestParams = new HashMap<>();
+        requestParams.put("audioJack", null);
+        requestParams.put("sim", "esim");
+        List<Brand>  result = MobileUtils.filterCriteria(brands, requestParams);
+        Assert.assertTrue(result.size()==18);
+    }
 }
